@@ -1,0 +1,84 @@
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 1px;
+  border: none;
+  background: rgb(205, 235, 221);
+
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+
+  >button {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+
+  }
+}
+
+.edit,
+.save {
+  background: rgb(19, 173, 137);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.delete,
+.cancel {
+  background: rgb(209, 89, 22);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.addbutton {
+  width: 180px;
+  height: 35px;
+  background: rgb(19, 173, 137);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.inputbox {
+  width: 400px;
+  border: 1px solid rgb(19, 173, 137);
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: rgb(19, 173, 137);
+  margin: 20px;
+  padding: 30px;
+}
+
+
+@media only screen and (max-width:800px) {
+  .card {
+    width: 40%;
+
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  .card {
+    width: 50%;
+
+  }
+}
